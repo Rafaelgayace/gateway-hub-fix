@@ -17,7 +17,7 @@ const Index = () => {
         <div className="relative z-10 mb-8 animate-fade-in">
           <div className="w-40 h-40 md:w-56 md:h-56 flex items-center justify-center">
             <img 
-              src="/cia-logo.png" 
+              src="./cia-logo.png"
               alt="CIA Logo" 
               className="w-full h-full object-contain"
               onError={(e) => {
@@ -155,7 +155,7 @@ const Index = () => {
       <section className="px-6 py-24 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
           <img 
-            src="/cia-logo.png" 
+            src="./cia-logo.png"
             alt="CIA Logo" 
             className="w-24 h-24 object-contain mx-auto mb-8 opacity-60"
             onError={(e) => {
